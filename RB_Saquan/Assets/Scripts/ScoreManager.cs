@@ -8,20 +8,12 @@ public class ScoreManager : MonoBehaviour
     private Text score;
     private int scoreAmount;
 
-    // Start is called before the first frame update
-    void Start()
+    void OnTriggerEnter2D(Collider2D otherObject)
     {
-        scoreAmount = 0;
-        score = GetComponent<Text>();
-    }
-
-    private void Update()
-    {
-        score.text = scoreAmount.ToString();
-    }
-
-    public void AddScre()
-    {
-        scoreAmount += 1;
+        if (otherObject.name == "Saquon")
+        {
+            scoreAmount += 1;
+            score.text = scoreAmount.ToString();
+        }
     }
 }
