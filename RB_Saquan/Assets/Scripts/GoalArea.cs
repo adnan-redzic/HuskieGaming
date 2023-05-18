@@ -25,10 +25,6 @@ public class GoalArea : MonoBehaviour
         if (coll.CompareTag ("Pickable"))
         {
             score = score + 1;
-        }
-
-        if (coll.CompareTag ("Pickable"))
-        {
             coll.gameObject.SetActive(false);
         }
     }

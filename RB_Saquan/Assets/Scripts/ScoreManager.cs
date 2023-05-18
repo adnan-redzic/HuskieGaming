@@ -5,15 +5,24 @@ using UnityEngine.UI;
 
 public class ScoreManager : MonoBehaviour
 {
-    private Text score;
-    private int scoreAmount;
+    public Text MyScoreText;
+    private int ScoreAmount;
 
-    void OnTriggerEnter2D(Collider2D otherObject)
+    // Start is called before the first frame update
+    void Start()
     {
-        if (otherObject.name == "Saquon")
+        ScoreAmount = 0;
+        MyScoreText.text = "" + ScoreAmount;
+    }
+
+    private void OnTriggerEnter2D(Collider2D jackson)
+    {
+        if (jackson.tag == "Objective")
         {
-            scoreAmount += 1;
-            score.text = scoreAmount.ToString();
+            ScoreAmount += 1;
+            MyScoreText.text = "" + ScoreAmount;
+            Debug.Log("Works");
+            Destroy(jackson.gameObject);
         }
     }
 }
