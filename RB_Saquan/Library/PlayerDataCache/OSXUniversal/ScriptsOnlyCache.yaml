@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - AiZ
     - LevelManager
     - MovementController
+    - ScoreManager
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Tilemap.Editor.dll:
@@ -54,6 +55,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
     - Class: 95
@@ -61,22 +66,28 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11268}
+      Script: {instanceID: 11270}
     - Class: 114
-      Script: {instanceID: 11646}
+      Script: {instanceID: 11584}
     - Class: 114
-      Script: {instanceID: 12358}
+      Script: {instanceID: 11648}
     - Class: 114
-      Script: {instanceID: 12566}
+      Script: {instanceID: 11944}
     - Class: 114
-      Script: {instanceID: 12864}
+      Script: {instanceID: 12362}
     - Class: 114
-      Script: {instanceID: 13766}
+      Script: {instanceID: 12570}
     - Class: 114
-      Script: {instanceID: 14004}
+      Script: {instanceID: 12870}
     - Class: 114
-      Script: {instanceID: 14656}
+      Script: {instanceID: 13772}
+    - Class: 114
+      Script: {instanceID: 14010}
+    - Class: 114
+      Script: {instanceID: 14662}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -103,18 +114,22 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11268}
+      Script: {instanceID: 11270}
     - Class: 114
-      Script: {instanceID: 11646}
+      Script: {instanceID: 11648}
     - Class: 114
-      Script: {instanceID: 12358}
+      Script: {instanceID: 12362}
     - Class: 114
-      Script: {instanceID: 14004}
+      Script: {instanceID: 14010}
     - Class: 114
-      Script: {instanceID: 14656}
+      Script: {instanceID: 14662}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -144,24 +159,28 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11268}
+      Script: {instanceID: 11270}
     - Class: 114
-      Script: {instanceID: 11582}
+      Script: {instanceID: 11584}
     - Class: 114
-      Script: {instanceID: 11646}
+      Script: {instanceID: 11648}
     - Class: 114
-      Script: {instanceID: 12358}
+      Script: {instanceID: 12362}
     - Class: 114
-      Script: {instanceID: 12566}
+      Script: {instanceID: 12570}
     - Class: 114
-      Script: {instanceID: 13140}
+      Script: {instanceID: 13146}
     - Class: 114
-      Script: {instanceID: 14004}
+      Script: {instanceID: 14010}
     - Class: 114
-      Script: {instanceID: 14656}
+      Script: {instanceID: 14662}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -189,18 +208,22 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11268}
+      Script: {instanceID: 11270}
     - Class: 114
-      Script: {instanceID: 11646}
+      Script: {instanceID: 11648}
     - Class: 114
-      Script: {instanceID: 12358}
+      Script: {instanceID: 12362}
     - Class: 114
-      Script: {instanceID: 14004}
+      Script: {instanceID: 14010}
     - Class: 114
-      Script: {instanceID: 14656}
+      Script: {instanceID: 14662}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -416,6 +439,12 @@ ScriptsOnlyBuild:
     className: AnimationTrack
   - hash:
       serializedVersion: 2
+      Hash: 3946a59d0aabd1c9f8ece39467c63dfb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ScoreManager
+  - hash:
+      serializedVersion: 2
       Hash: cf9f5cf2c3145a37ac07f00e50e460f9
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -576,6 +605,12 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
     className: CinemachineTriggerAction
+  - hash:
+      serializedVersion: 2
+      Hash: db6420e87ad9cb5db0c34fdcdfc0c4e0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GoalArea
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
